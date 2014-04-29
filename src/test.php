@@ -152,11 +152,9 @@ class PhpUnderControl_Example_Math
     /**
      * Simple copy for cpd detection.
      */
-    public function complex($v1, $v2)
-    {
+    public function complex($v1, $v2){
         $v3 = $v1 / ($v2 + $v1);
-        if ($v3 > 14)
-        {
+        if ($v3 > 14){
             $v4 = 0;
             for ($i = 0; $i < $v3; $i++)
             {
@@ -170,8 +168,7 @@ class PhpUnderControl_Example_Math
         $d = array($v1, $v2, $v3, $v4, $v5, $v6);
 
         $v7 = 1;
-        for ($i = 0; $i < $v6; $i++)
-        {
+        for ($i = 0; $i < $v6; $i++){
             shuffle( $d );
             $v7 = $v7 + $i * end( $d );
         }
