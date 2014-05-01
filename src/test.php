@@ -212,7 +212,7 @@ class PhpUnderControl_Example_Math
 }
 
 //UNIT TEST CLASS AND FUNCTION 
-class StackTest extends PHPUnit_Framework_TestCase
+class Test extends PHPUnit_Framework_TestCase
 {
     public function testEmpty()
     {
