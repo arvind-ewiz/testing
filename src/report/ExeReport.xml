@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Test" file="C:\Users\User\Documents\GitHub\testing\src\test.php" tests="3" assertions="5" failures="0" errors="0" time="0.024373">
+    <testcase name="testEmpty" class="Test" file="C:\Users\User\Documents\GitHub\testing\src\test.php" line="217" assertions="1" time="0.006307"/>
+    <testcase name="testPush" class="Test" file="C:\Users\User\Documents\GitHub\testing\src\test.php" line="228" assertions="2" time="0.014333"/>
+    <testcase name="testPop" class="Test" file="C:\Users\User\Documents\GitHub\testing\src\test.php" line="240" assertions="2" time="0.003733"/>
+  </testsuite>
+</testsuites>
