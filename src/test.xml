@@ -1,7 +1,0 @@
-<phpunit>
-  <testsuites>
-    <testsuite name="Object_Freezer">
-      <directory>Tests</directory>
-    </testsuite>
-  </testsuites>
-</phpunit>
